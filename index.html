@@ -4,114 +4,120 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="reset.css" />
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
-
     <title>Frontend Mentor | FAQ Accordion Card</title>
   </head>
   <body>
     <main class="container">
-      <div class="illustration">
+      <div class="image-container">
+        <div class="image-main"></div>
         <img
-          src="images/illustration-woman-online-mobile.svg"
-          alt="Illustration of a woman using a computer"
-          class="illustration-mobile"
+          src="images/illustration-box-desktop.svg"
+          alt="Generic box illustration"
+          class="box"
         />
-        <img
-          src="images/bg-pattern-mobile.svg"
-          alt="Decorative shadow"
-          class="shadow-mobile"
-        />
-        <div class="faq-whiteout"></div>
       </div>
-      <div class="faq">
+      <div class="faq-container">
         <h1 class="faq-header">FAQ</h1>
-        <div class="faq-items">
-          <div class="faq-question">
-            <p>How many team members can I invite?</p>
-            <img
-              src="images/icon-arrow-down.svg"
-              alt="Arrow icon for dropdown item"
-              class="dropdown-icon"
-            />
+        <div class="faq-items-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3 class="faq-question-header">
+                How many team members can I invite?
+              </h3>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="Dropdown icon"
+                class="faq-question-dropdown"
+              />
+            </div>
+            <div class="faq-answer">
+              <p class="faq-answer-text">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
           </div>
-          <div class="faq-answer">
-            <p>
-              You can invite up to 2 additional users on the Free plan. There is
-              no limit on team members for the Premium plan.
-            </p>
-          </div>
-          <hr />
 
-          <div class="faq-question">
-            <p>What is the maximum file upload size?</p>
-            <img
-              src="images/icon-arrow-down.svg"
-              alt="Arrow icon for dropdown item"
-              class="dropdown-icon"
-            />
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3 class="faq-question-header">
+                What is the maximum file upload size?
+              </h3>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="Dropdown icon"
+                class="faq-question-dropdown"
+              />
+            </div>
+            <div class="faq-answer">
+              <p class="faq-answer-text">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
           </div>
-          <div class="faq-answer">
-            <p>
-              No more than 2GB. All files in your account must fit your allotted
-              storage space.
-            </p>
-          </div>
-          <hr />
 
-          <div class="faq-question">
-            <p>How do I reset my password?</p>
-            <img
-              src="images/icon-arrow-down.svg"
-              alt="Arrow icon for dropdown item"
-              class="dropdown-icon"
-            />
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3 class="faq-question-header">How do I reset my password?</h3>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="Dropdown icon"
+                class="faq-question-dropdown"
+              />
+            </div>
+            <div class="faq-answer">
+              <p class="faq-answer-text">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
           </div>
-          <div class="faq-answer">
-            <p>
-              Click “Forgot password” from the login page or “Change password”
-              from your profile page. A reset link will be emailed to you.
-            </p>
-          </div>
-          <hr />
 
-          <div class="faq-question">
-            <p>Can I cancel my subscription?</p>
-            <img
-              src="images/icon-arrow-down.svg"
-              alt="Arrow icon for dropdown item"
-              class="dropdown-icon"
-            />
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3 class="faq-question-header">Can I cancel my subscription?</h3>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="Dropdown icon"
+                class="faq-question-dropdown"
+              />
+            </div>
+            <div class="faq-answer">
+              <p class="faq-answer-text">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </div>
           </div>
-          <div class="faq-answer">
-            <p>
-              Yes! Send us a message and we’ll process your request no questions
-              asked.
-            </p>
-          </div>
-          <hr />
 
-          <div class="faq-question">
-            <p>Do you provide additional support?</p>
-            <img
-              src="images/icon-arrow-down.svg"
-              alt="Arrow icon for dropdown item"
-              class="dropdown-icon"
-            />
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3 class="faq-question-header">
+                Do you provide additional support?
+              </h3>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="Dropdown icon"
+                class="faq-question-dropdown"
+              />
+            </div>
+            <div class="faq-answer">
+              <p class="faq-answer-text">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
           </div>
-          <div class="faq-answer">
-            <p>
-              Chat and email support is available 24/7. Phone lines are open
-              during normal business hours.
-            </p>
-          </div>
-          <hr />
         </div>
       </div>
     </main>
